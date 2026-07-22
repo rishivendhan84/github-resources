@@ -34,6 +34,20 @@ A block with no verdict means triage did not happen that day, which is itself wo
 
 ## Log
 
+### 2026-07-22
+
+| # | Repo | Stars today | What it is, why it is worth the time, the angle | Verdict |
+|---|---|---|---|---|
+| 1 | [`bojieli/ai-agent-book`](https://github.com/bojieli/ai-agent-book) (Python, 15.4k★) | +4,624 | An open repository of AI agent design principles and engineering practices, and the fastest riser on the page today. Worth the time because it is a written-procedure artifact rather than a tool or a framework, which is a comparatively rare shape in agent tooling. **Angle:** treat it as a canonical reference and test where its guidance holds up for single-developer setups rather than teams. | |
+| 2 | [`ayghri/i-have-adhd`](https://github.com/ayghri/i-have-adhd) (7.1k★) | +1,866 | A coding-agent skill that reshapes output clarity and organization for neurodivergent users. Worth the time as a minimal example: one skill that changes output *format* rather than adding capability, and short enough to read end to end. **Angle:** what a presentation-only skill suggests about where the value in agent tooling actually sits. | |
+| 3 | [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) (TypeScript, 23.8k★) | +2,034 | An AI gateway spanning 268+ providers and 500+ models with automatic fallback. Worth the time because provider routing is the infrastructure-level answer to inference cost and availability, not an application-level one. **Angle:** what routing buys in resilience versus what it costs in debuggability when a fallback fires silently. | |
+| V | [`pbeens/obsidian-agents.md`](https://github.com/pbeens/obsidian-agents.md) | n/a | Agentic workflow configurations, instructions and skills built specifically for Obsidian note vaults, with Claude Code support. **Angle:** how a note-vault agent scopes its own permissions, and what it explicitly refuses to do. | |
+
+**If you take one:** `ayghri/i-have-adhd`. It is the smallest of the four and the only one genuinely finishable in a single sitting.
+**Notes:** Star counts are as the trending page rendered them and were not verified against the GitHub API; no repo ages or creation dates were checked, so treat every number as a signal rather than a credential. *Notable but not picked:* `tirth8205/code-review-graph` (24.7k★, +1,925) is trending a second consecutive day and the sustained velocity is worth noting. `KnockOutEZ/wigolo` (3.2k★, +642) is still climbing from an earlier scan. `1jehuang/jcode` and `agegr/pi-web` are both agent harnesses in a crowded category with no clear distinguishing angle. Verdicts are empty by design: this block is written in the morning and triage runs later.
+
+---
+
 ### 2026-07-20
 
 Log opened. First scan block lands on the next run.
