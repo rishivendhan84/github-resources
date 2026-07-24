@@ -34,6 +34,20 @@ A block with no verdict means triage did not happen that day, which is itself wo
 
 ## Log
 
+### 2026-07-24
+
+| # | Repo | Stars today | What it is, why it is worth the time, the angle | Verdict |
+|---|---|---|---|---|
+| 1 | [`alibaba/open-code-review`](https://github.com/alibaba/open-code-review) (Go, 11.7k★) | +180 | An open-source code-review tool that runs deterministic pipelines with LLM-agent steps layered on top. Worth the time as a working example of splitting a review into fixed rule-based checks and model-judgment checks inside one pipeline. **Angle:** which checks it hard-codes as deterministic versus which it hands to the model, and what that dividing line says about where an LLM actually belongs in an automated pipeline. | |
+| 2 | [`citrolabs/ego-lite`](https://github.com/citrolabs/ego-lite) (JavaScript, 1.8k★) | +247 | A web browser built so a person and an AI agent can work the same session in parallel. Worth the time as a concrete UI answer to the human-in-the-loop question: how a human and an agent share control of the same state. **Angle:** what parallel work really means when both touch the same state, and where the handoff has to become an explicit approval step rather than a silent merge. | |
+| 3 | [`earthtojake/text-to-cad`](https://github.com/earthtojake/text-to-cad) (JavaScript, 10.1k★) | +230 | A collection of agent skills for CAD, robotics, and hardware design. Worth the time as a test of how far the idea of a reusable skill as the unit of work travels once it drives physical output instead of text. **Angle:** read one skill and see where a skill that drives hardware needs guarantees a text-only skill never does. | |
+| V | [`likec4/likec4`](https://github.com/likec4/likec4) (TypeScript) | n/a | Architecture-as-code: describe a system in a small DSL and get live, navigable diagrams generated from the source. **Angle:** what it keeps in the model versus what it renders, and whether a live map generated from a single source of truth justifies maintaining the DSL over a hand-drawn diagram. | |
+
+**If you take one:** `alibaba/open-code-review` — the most directly usable of the four, a working reference for splitting deterministic checks from model judgment in one pipeline.
+**Notes:** Star counts are as the trending page rendered them and were not verified against the GitHub API; no repo ages or creation dates were checked, so treat every number as a signal rather than a credential. *Notable but not picked:* `ComposioHQ/awesome-claude-skills` (69.5k★, +636) and `diegosouzapw/OmniRoute` (27.5k★, +1,929) are both still climbing but were logged on earlier days. `koala73/worldmonitor` (71.9k★, +3,175) is the fastest riser on the page but falls outside the scan's lanes with no clear teardown angle. `Automattic/harper` (12.4k★, +624) is a local-first grammar checker, adjacent but thin as a teardown. Verdicts are empty by design: this block is written in the morning and triage runs later.
+
+---
+
 ### 2026-07-23
 
 | # | Repo | Stars today | What it is, why it is worth the time, the angle | Verdict |
