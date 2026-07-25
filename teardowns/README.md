@@ -34,6 +34,20 @@ A block with no verdict means triage did not happen that day, which is itself wo
 
 ## Log
 
+### 2026-07-25
+
+| # | Repo | Stars today | What it is, why it is worth the time, the angle | Verdict |
+|---|---|---|---|---|
+| 1 | [`block/buzz`](https://github.com/block/buzz) (Rust, 10.4k★) | +3,270 | A self-hostable Nostr relay where humans and AI agents collaborate in shared channels on a single event log and keypair identity: agents join as team members, run workflows, and review code on the same audit trail as people. Worth the time as a shipped, infrastructure-level answer to the human-in-the-loop question of how a person and an agent share control of the same state. **Angle:** where a shared human-and-agent event log has to become an explicit approval boundary rather than a free-for-all, and what a single shared audit trail buys once an agent can act on the log unprompted. Fastest riser on the page today. | |
+| 2 | [`shiyu-coder/Kronos`](https://github.com/shiyu-coder/Kronos) (Python, 33.6k★) | +499 | The first open-source foundation model for financial candlesticks (K-lines), trained on data from 45+ global exchanges: a specialized tokenizer converts OHLCV price data into discrete tokens, then an autoregressive Transformer forecasts. Worth the time as a rare concrete port of the LLM tokenizer-plus-Transformer recipe to noisy financial time-series rather than text. **Angle:** how it tokenizes continuous price data, since the tokenizer is the core bet, and what a forecasting model can and cannot responsibly promise before it informs a decision. | |
+| 3 | [`OtterMind/Chat2DB`](https://github.com/OtterMind/Chat2DB) (Java, 26.4k★) | +82 | An AI-driven database client and SQL workspace: a full SQL editor plus an AI assistant that writes and optimizes queries across 30+ databases. Worth the time as a live example of an AI writing directly to real databases, which is a guardrail question more than a convenience one. **Angle:** what read-versus-write boundary it enforces before an AI-generated query touches production data, and whether query optimization is a safe place to hand control to a model. Lowest velocity of the three today (+82), included for topic fit rather than momentum. | |
+| V | [`GuideThomas/obsidian-intelligence`](https://github.com/GuideThomas/obsidian-intelligence) | n/a | Makes an Obsidian note vault a first-class knowledge source for any MCP-enabled AI assistant: local, private, headless, with graph, full-text (FTS5), semantic, and hybrid (RRF) search, and notes never leaving the machine. **Angle:** how it scopes read-versus-write access to the vault and which search modality it reaches for first, a retrieval design worth studying for any local knowledge base exposed to an agent. Surfaced via search rather than the trending page, so unranked. | |
+
+**If you take one:** `block/buzz` — the only one of the four that is directly write-up-ready rather than research-first, a working example of a shared human-and-agent workspace, and the fastest riser on the page today, so a teardown rides current attention.
+**Notes:** Star counts are as the trending page rendered them and were not verified against the GitHub API; no repo ages or creation dates were checked, so treat every number as a signal rather than a credential. *Notable but not picked:* `koala73/worldmonitor` (73.6k★, +2,184) is the fastest riser on the page again but falls outside the scan's lanes with no clear teardown angle. `mattpocock/skills` (+2,251), `ComposioHQ/awesome-claude-skills` (+663), `diegosouzapw/OmniRoute` (+1,841), `likec4/likec4` (+337), `citrolabs/ego-lite` (+880), and `Automattic/harper` (+876) were all logged or noted on earlier days. Verdicts are empty by design: this block is written in the morning and triage runs later.
+
+---
+
 ### 2026-07-24
 
 | # | Repo | Stars today | What it is, why it is worth the time, the angle | Verdict |
